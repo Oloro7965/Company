@@ -1,0 +1,6 @@
+package funcionarios;
+public class administrador extends FuncionarioAutenticavel {
+	public double bonificacao() {
+		return this.getSalario()*0.5;
+	}
+}
