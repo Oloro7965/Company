@@ -1,0 +1,8 @@
+package funcionarios;
+public class Gerente extends FuncionarioAutenticavel {
+	public double bonificacao() {
+		//return super.bonificacao()+super.salario;
+		System.out.println("chamando o método de bonificação do gerente ");
+		return this.getSalario();
+	}
+	}
